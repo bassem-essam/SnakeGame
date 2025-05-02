@@ -11,7 +11,7 @@ public class Snake
     public Direction NextDirection => _nextDirection;
     public bool IsAlive { get; private set; } = true;
 
-    public Position Head => Head;
+    public Position Head => _body[0];
     public IEnumerable<Position> Tail => _body.Skip(1);
 
     public Snake(Position initialPosition, Direction initialDirection = Direction.Right)

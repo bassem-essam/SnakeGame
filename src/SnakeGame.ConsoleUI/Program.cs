@@ -3,13 +3,16 @@ using SnakeGame.ConsoleUI.Adapters;
 using SnakeGame.ConsoleUI.Framework;
 
 
-GameOutput gameOutput = new GameOutput();
+ConsoleGameOutputAdapter gameOutput = new ConsoleGameOutputAdapter();
 if (args.Contains("-full")) {
-    gameOutput = new GameOutput(Screen.CreateFullScreen());
+    gameOutput = new ConsoleGameOutputAdapter(Screen.CreateFullScreen());
 }
 
-GameInput gameInput =  new GameInput();
-gameOutput.SetBackgroundColor(Color.BgWhite);
+ConsoleGameInputAdapter gameInput =  new ConsoleGameInputAdapter();
+// gameOutput.SetBackgroundColor(Color.BgLightBlue);
+
 Game game = new Game(gameOutput, gameInput);
-game.SetSpeed(50);
+
+// game.SetSpeed(50);
+
 game.Run();
