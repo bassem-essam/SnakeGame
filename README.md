@@ -32,7 +32,7 @@ This separation ensures that technical decisions can be deferred and high-level 
 For the original article visit: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 
 ## Project structure
-![Architecture](./snake_game_architecture.svg)
+<img src="./snake_game_architecture.svg" alt="Software architecture of the project" />
 
 This application implements Clean Architecture in a multi-project solution. The Core and Application layers each have their own dedicated project, while the Frameworks and Adapters are combined into a single project for each utilized technology (externality) such as Console or SFML Graphics.
 
