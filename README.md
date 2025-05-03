@@ -65,12 +65,31 @@ The ConsoleUI and GraphicsUI projects each represent a distinct UI technology im
 ### Launch Options
 
 **Console Interface:**
+
 `dotnet run --project src/SnakeGame.ConsoleUI`
 
+fullscreen mode: 
+
+`dotnet run --project src/SnakeGame.ConsoleUI -full`
+
 **SFML Graphics Interface:**
+
 `dotnet run --project src/SnakeGame.GraphicsUI`
+
+fullscreen mode: 
+
+`dotnet run --project src/SnakeGame.GraphicsUI -full`
 
 ### Controls
 - Arrow keys: Change snake direction
 - Space bar: Pause the game
 - ESC: Exit the game
+
+## Demo
+### Console UI
+
+https://github.com/user-attachments/assets/565e4fc6-50b1-44c7-94ba-a3f4b55699a2
+
+### Graphics UI
+
+https://github.com/user-attachments/assets/079250a7-5534-4b5a-be8d-ab5ede3debd2
