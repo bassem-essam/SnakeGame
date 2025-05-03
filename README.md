@@ -76,7 +76,7 @@ fullscreen mode:
 
 `dotnet run --project src/SnakeGame.GraphicsUI`
 
-fullscreen mode: 
+almost fullscreen mode: 
 
 `dotnet run --project src/SnakeGame.GraphicsUI -full`
 
