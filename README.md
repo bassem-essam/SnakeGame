@@ -1,6 +1,6 @@
 # SnakeGame
 
-A Snake game implementation that demonstrates Clean Architecture principles using ASP.NET Core.
+A Snake game implementation that demonstrates Clean Architecture principles using .NET Core.
 
 This project prioritizes architectural design over complex gameplay features, serving as a practical showcase for:
 - Clean separation of concerns
